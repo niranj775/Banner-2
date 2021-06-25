@@ -30,6 +30,7 @@ p {
 p,
 h1,
 h2,
+h3,
 h4 {
   color: white;
 }
@@ -102,4 +103,55 @@ section {
   background-color: rgb(226, 62, 33);
   width: 70%;
   margin: auto;
+}
+
+#card3 {
+  background-color: rgb(43, 149, 190);
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+#card3-1of2 {
+}
+
+#card3-2of2 {
+}
+
+#card4 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+#card4-1of2 {
+  background-color: rgb(226, 62, 33);
+}
+
+#card4-2of2 {
+  background-color: rgb(243, 168, 7);
+}
+
+#card5 {
+  background-color: rgb(43, 149, 190);
+  width: 70%;
+  margin: auto;
+}
+
+#card6 {
+  background-color: rgb(243, 168, 7);
+  width: 70%;
+  margin: auto;
+}
+
+#card7 {
+  text-align: center;
+}
+
+#card7-1of2 {
+  background-color: rgb(43, 149, 190);
+}
+
+#card7-2of2 {
+  background-color: rgb(226, 62, 33);
 }
