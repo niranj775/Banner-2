@@ -22,7 +22,7 @@ header {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  /* display: inline; */
+  display: flex;
 }
 p {
   font-size: 12px;
