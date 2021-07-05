@@ -7,6 +7,7 @@ body {
 }
 header {
   margin: 0px 20% 5% 20%;
+  display: flex;
 }
 
 #mainsection {
@@ -25,7 +26,7 @@ header {
   display: flex;
 }
 p {
-  font-size: 12px;
+  font-size: 13px;
 }
 p,
 h1,
@@ -38,6 +39,8 @@ h4 {
 #title {
   display: inline;
   text-transform: uppercase;
+  margin-left: 20px;
+  padding-top: 4px;
 }
 
 #title h1 {
@@ -50,6 +53,7 @@ h4 {
   font-weight: bold;
   margin: 0% 0% 0% 0%;
   font-size: 0.85rem;
+
 }
 
 section {
@@ -57,16 +61,15 @@ section {
 }
 
 #card1 {
-  display: inline;
+  display: flex;
 }
 
 #card1-2of1 {
   width: 50%;
-  margin: auto;
+
   padding: 5%;
   background-color: rgb(243, 168, 7);
   text-align: center;
-  line-height: 1.15;
 }
 #card1-2of1 h2,
 #card1-2of1 h4,
@@ -80,11 +83,9 @@ section {
 
 #card2-2of1 {
   width: 50%;
-  margin: auto;
   padding: 5%;
   background-color: rgb(43, 149, 190);
   text-align: center;
-  line-height: 1.5;
 }
 
 #card2-2of1 p {
@@ -101,57 +102,104 @@ section {
 
 #card2 {
   background-color: rgb(226, 62, 33);
-  width: 70%;
+  width: 87%;
+  padding: 5%;
   margin: auto;
+}
+
+#card2-title {
+  display: flex;
 }
 
 #card3 {
   background-color: rgb(43, 149, 190);
-  width: 70%;
+  width: 87%;
+  padding: 5%;
   margin: auto;
   text-align: center;
+  margin-top: 2%;
 }
 
+#card3-title {
+  display: flex;
+}
+#card3-title h3 {
+  margin-left: 1%;
+  margin-right: 3%;
+}
+
+#card3-content{
+  display: flex;
+  text-align: left;
+}
+
+
 #card3-1of2 {
+  width: 50%;
+  margin: 1%;
 }
 
 #card3-2of2 {
+  width: 50%;
+  margin: 1%;
 }
 
 #card4 {
-  width: 70%;
-  margin: auto;
+  width: 97%;
+  padding: 0%;
+  margin: 2%;
   text-align: center;
+  display: flex;
 }
 
 #card4-1of2 {
+  padding: 5%;
+  width: 50%;
   background-color: rgb(226, 62, 33);
 }
 
 #card4-2of2 {
+  padding: 5%;
+  width: 50%;
   background-color: rgb(243, 168, 7);
 }
 
 #card5 {
+  margin: 2%;
   background-color: rgb(43, 149, 190);
-  width: 70%;
-  margin: auto;
+  width:87%;
+  display: flex;
+  padding: 5%;
+}
+
+#card5-2of2{
+  margin: 5% 10% 0% 20%;
 }
 
 #card6 {
   background-color: rgb(243, 168, 7);
-  width: 70%;
-  margin: auto;
+  width: 87%;
+  display: flex;
+  padding: 5%;
+  margin: 2%;
+}
+#card6-2of2{
+  margin: 5% 10% 0% 14%;
 }
 
 #card7 {
   text-align: center;
+  display: flex;
 }
 
 #card7-1of2 {
+  padding: 5%;
+  width: 50%;
   background-color: rgb(43, 149, 190);
 }
 
 #card7-2of2 {
+  padding: 5%;
+  width: 50%;
   background-color: rgb(226, 62, 33);
 }
